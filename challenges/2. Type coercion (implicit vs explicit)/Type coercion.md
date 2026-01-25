@@ -10,16 +10,12 @@ Hard rule: You must predict the output before running the code.
 
  --- After Challenge ---
 
+ 
+    // Overall reflection, I understand now what loose and strict equality is better. == is loose.
+    // It checks the types, if they are different it tries to coerce one or both, and then compares the result
+    // However, with the strict equality, === has no coercion, no negotiation, no reinterpretations, if it's 
+    // different, then it's false.
 
+    // Implicit coercion is: JavaScript automatically converts a value from one type to another without you explicitly asking it to.
 
-
-
-
-
-You must be able to explain:
-
-Loose vs strict equality
-
-When JS coerces types automatically
-
-Why implicit coercion is dangerous and useful
+    // Explicit coercion is when I clearly tell java "Convert this.".
